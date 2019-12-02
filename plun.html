@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/font/iconfont.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,html {
+            background-color: #eee;
+            
+        }
+    
+       
+        .top {
+            width: 100%;
+            height: 60px;
+            line-height: 50px;
+            color: #111;
+            font-size: 17px;
+            display: flex;
+            background-color: #fff;
+            
+        }
+
+        .top div:nth-child(2) {
+            width: 80%;
+            text-align: center;
+        }
+
+        .top div:nth-child(1),
+        .top div:nth-child(3),
+        .top div:nth-child(4) {
+            padding: 0 4%;
+            font-size: 20px;
+        }
+
+        .mainsong {
+            height: 60px;
+            background-color: #fff;
+            padding: 14px 0;
+        }
+
+        .margint {
+            margin-top: 12px;
+        }
+
+        .songone {
+            display: flex;
+        }
+
+        .songone>div:nth-child(1) {
+            width: 80%;
+            display: flex;
+        }
+
+        .songone span {
+            font-size: 20px;
+            margin-left: 40%;
+        }
+
+        .songonet {
+            margin: 4% 0px;
+        }
+
+        .songone .zj {
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            margin-right: 4%;
+
+        }
+
+        .right {
+            color: #999;
+        }
+
+        .plunone {
+            display: flex;
+        }
+
+        .plunone>div {
+            flex: 1;
+            
+        }
+        .mainplun {
+            margin-top: 12px;
+            background-color: #fff;
+        }
+
+        .right {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="plun">
+        <div class="plunb">
+
+            <div class="top">
+                <div class="iconfont icon-shouqi_m" @click="fanhu"></div>
+                <div>评论(5467)</div>
+                <div class="iconfont icon-caozuo_vertical"></div>
+                <div class="iconfont icon-paixingbang"></div>
+            </div>
+
+
+
+            <div class="mainsong">
+                <div class="songone">
+                    <div>
+                        <div class="zj">
+                            <img src="http://b.hiphotos.baidu.com/image/pic/item/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg"
+                                alt="" width="60px" height="60px" style="border-radius: 6px;">
+                        </div>
+                        <div>
+                            <div>66666666666666666666 </div>
+                            <div class="auth"> </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="iconfont icon-shipin"></span><span class="iconfont icon-caozuo_vertical">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mainsong margint">
+                <div class="songone">
+                    <div>
+                        <div class="zj">
+                            <img src="http://b.hiphotos.baidu.com/image/pic/item/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg"
+                                alt="" width="60px" height="60px" style="border-radius: 6px;">
+                        </div>
+                        <div>
+                            <div>66666666666666666666 </div>
+                            <div class="auth"> </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="iconfont icon-shipin"></span><span class="iconfont icon-caozuo_vertical">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mainplun">
+                <div style="font-size: 18px;line-height: 60px;">精彩评论</div>
+                <div class="plunone">
+                    <div>
+                        <div></div>
+                        <div>
+                            <div>米侄女</div>
+                            <div>2018年6月12号</div>
+                        </div>
+
+                    </div>
+                    <div class="right">
+                        <span>198</span><span class="iconfont icon-good_active-copy"></span>
+                    </div>
+                </div>
+                <div>
+                    为一个人，放弃一座城
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/font/iconfont.css" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #found {
+            background-color: #eee;
+            
+            background-image: url(http://c.hiphotos.baidu.com/image/pic/item/42a98226cffc1e17f0d1c48b4090f603738de91a.jpg);
+        }
+        .top {
+            height: 60px;
+            line-height: 50px;
+            color: #fff;
+            font-size: 17px;
+            display: flex;
+        }
+        .top div:nth-child(2){
+            width: 80%;
+            text-align: center;
+        }
+        .top div:nth-child(1),.top div:nth-child(3),.top div:nth-child(4){
+            padding: 0 4%;
+            font-size: 20px;
+        }
+        .main {
+            background-color: #fff;
+            padding: 0 12px;
+            border-radius: 16px 16px 0 0;
+        }
+        .maintop{
+            padding-top: 14px;
+            display: flex;
+        }
+        .maintop div{
+            flex: 1;
+
+        }
+        .maintop div span{
+            margin-left: 4%;
+        }
+        .maintop div.sel{
+            text-align: right;
+        }
+        .mainsong{
+            margin-top: 10px;
+        }
+        .songone{
+            display: flex;
+        }
+        .songone>div:nth-child(1){
+            width: 80%;
+            display: flex;
+        }
+        .songone span{
+            font-size: 20px;
+            margin-left: 40%;
+        }
+        .songone .zj{
+            width: 40px;
+            height: 40px;
+            border: 1px #999 solid;
+            border-radius: 4px;margin-right: 4%;
+        }
+        .nav {
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            width: 100%;
+            box-shadow: 0 0 4px #999;
+            padding: 6px 11px 0 11px;
+            left: 0;
+            font-size: 14px;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .nav>div {
+            flex: 1;
+            width: 25%;
+            text-align: center;
+        }
+
+        .iconb {
+            font-size: 22px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="found">
+        <div class="top"> 
+            <div class="iconfont icon-shouqi_m"></div>
+            <div>每日推荐</div>
+            <div class="iconfont icon-duoxuan"></div>
+            <div class="iconfont icon-paixingbang"></div>
+        </div>
+
+        <div class="main">
+            <div class="maintop">
+                <div><span class="iconfont icon-duoxuan"></span><span>播放全部</span></div>
+                <div class="sel"><span class="iconfont icon-duoxuan"></span><span>多选</span></div>
+            </div>
+            <div class="mainsong">
+                
+                    <div class="songone">
+                        <div>
+                            <div class="zj">
+                                
+                            </div>
+                            <div>
+                                <div>像我这样的人</div>
+                                <div>毛不易</div>
+                            </div>
+                        </div>
+                        <div><span class="iconfont icon-shipin"></span><span class="iconfont icon-caozuo_vertical"></span></div>
+                    </div>    
+
+            </div>
+        </div>
+        <div class="nav">
+            <div>
+                <div class="iconfont icon-diantai iconb"
+                    style="color:#fff;width: 32px;height: 32px;background-color: #FD402D;border-radius: 30px;line-height: 32px;margin-left:30%">
+                </div>发现
+            </div>
+            <div>
+                <div class="iconfont icon-shipin iconb"></div>视频
+            </div>
+            <div>
+                <div class="iconfont icon-local iconb"></div>我的
+            </div>
+            <div>
+                <div class="iconfont icon-shequ iconb"></div>云村
+            </div>
+            <div>
+                <div class="iconfont icon-wode iconb"></div>账号
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/font/iconfont.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573130291102&di=42705523163a4b6daea5cb49cf243c92&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fzhidao%2Fwh%253D450%252C600%2Fsign%3D24bd57cbc5fdfc03e52debbce10faba2%2Fb8389b504fc2d562697471d8e11190ef76c66c83.jpg);
+            background-size: cover;
+        }
+
+        .paly {
+            padding: 0px 24px;
+
+
+        }
+
+        .top {
+            height: 88px;
+            line-height: 88px;
+            color: #fff;
+            font-size: 17px;
+            display: flex;
+
+        }
+
+        .top div {
+            flex: 1;
+        }
+
+        .top div:nth-child(2) {
+            text-align: center;
+
+        }
+
+        .center {
+            height: 500px;
+        }
+        .centerT{
+            height: 400px;
+            display: flex;
+        }
+        .guangpan{
+            width: 260px;
+            height: 260px;
+            background: #666;
+            border-radius: 300px;
+            text-align: center;
+            margin-left: 12%;
+            margin-top: 26%;
+        }
+        .guangpan img{width: 100%;height: 100%;border-radius: 300px;}
+        .top div:nth-child(3) {
+            text-align: right;
+            font-size: 20px;
+        }
+
+        .caozuo,.caozuot {
+            height: 100px;
+            line-height: 100px;
+            display: flex;
+            color: #fff;
+        }
+
+        .caozuo div,.caozuot>div {
+            flex: 1;
+            text-align: center;
+            font-size: 20px;
+        }
+        #div1{
+            width: 80%;
+            height: 3px;position: absolute;background: #999;bottom: 82px;left: 10%;
+        }
+        #div2{
+            width: 4px;
+            height: 100%;position: absolute;background: #14BE74;bottom: 0px;left: 0px;
+        }
+        #div3{
+            width: 4px;
+            height: 10px;position: absolute;background: #fff;bottom: -4px;left: 0px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input {
+            position: absolute;
+            bottom: 75px;
+            background: none;
+            border: none;
+            color: #fff;
+            outline: none;
+        }
+        input.curren{left: 0px;}
+        input.dua{right: 0px;}
+    </style>
+</head>
+
+<body>
+    <div id="bj">
+
+        <div class="paly">
+            <div class="top">
+                <div class="iconfont icon-shouqi_m" style="font-size: 20px;"></div>
+                <div>像我这样的人</div>
+                <div class="iconfont icon-paixingbang"></div>
+
+            </div>
+            <div class="center">
+                <div class="centerT">
+                        <div class="guangpan">
+                            <img src="http://e.hiphotos.baidu.com/image/pic/item/359b033b5bb5c9eac1754f45df39b6003bf3b396.jpg" alt="">
+                        </div>
+                </div>
+                <div class="caozuot">
+                    <div class="iconfont icon-xin1" style="color: red;"></div>
+                    <div class="iconfont icon-xiazai"></div>
+                    <div class="iconfont icon-dian"></div>
+                    <div class="iconfont icon-pinglun"></div>
+                    <div class="iconfont icon-caozuo_vertical"></div>
+                </div>
+                <div id="div1">
+                        <div id="div2"></div>
+                        <div id="div3"></div>
+                    </div>
+                    <input class="curren" type="button" value="00:00"/>
+                    <input class="dua" type="button" value="00:00">
+            </div>
+            <div class="caozuo">
+                <div class="iconfont icon-xin"></div>
+                <div class="iconfont icon-bofangzanting1"></div>
+                <div class="iconfont icon-bofang" style="font-size:54px;"></div>
+                <div class="iconfont icon-bofangzanting"></div>
+                <div class="iconfont icon-shouqi"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
